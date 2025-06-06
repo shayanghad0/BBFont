@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "bbfont",
+  "version": "3.28.98",
+  "description": "help farsi text",
+  "author": "Shayan Ghadamian",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "css": ["style.css"],
+      "js": ["content.js"]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "font/bnazanin/*",
+        "font/btitir/*"
+      ],
+      "matches": ["<all_urls>"]
+    }
+  ],
+  "homepage_url": "https://github.com/shayanghad0/bbfont"
+}
+	

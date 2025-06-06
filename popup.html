@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <title>BBFont</title>
+  <style>
+  @font-face {
+	font-family: iran-yekan;
+	font-style: normal;
+	font-weight: 900;
+	src: url('font/btitir/iran-yekan.eot');
+	src: url('font/btitir/iran-yekan.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('font/btitir/iran-yekan.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('font/btitir/iran-yekan.ttf') format('truetype');
+	}
+   @font-face {
+	font-family: iran-sans;
+	font-style: normal;
+	font-weight: 900;
+	src: url('font/bnazanin/iran-sans.eot');
+	src: url('font/bnazanin/iran-sans.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('font/bnazanin/iran-sans.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('font/bnazanin/iran-sans.ttf') format('truetype');
+	}
+    body {
+      font-family: iran-sans, iran-yekan , Arial;
+      width: 250px;
+      padding: 10px;
+      background: #f5f5f5;
+      text-align: center;
+    }
+    header {
+      font-family : iran-sans;
+      display: block;
+      margin: 5px 0;
+    }
+    button {
+      font-family : Arial;
+      padding: 8px 12px;
+      margin-top: 8px;
+      border: none;
+      border-radius: 5px;
+      background-color: #0077cc;
+      color: white;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #005fa3;
+    }
+    footer {
+      font-family : iran-yekan;
+      margin-top: 15px;
+      font-size: 12px;
+      color: #555;
+    }
+    .img-fluid {
+      max-width: 100%;
+      height: auto;
+      margin-top: 10px;
+    }
+
+  </style>
+</head>
+<body>
+  <header>
+    <h3>bbfont</h3>
+	  <p>Developer: Shayan Ghadamian</p>
+
+  </header>
+  <footer>  
+    <a href="https://github.com/shayanghad0/BBFont" target="github">GitHub</a>
+    <a href="https://telegram.me/shayanghad0" target="_blank">Telegram</a>
+    <a href="https://x.com/shayanghad0" target="_blank">X (Twitter)</a>
+    <a href="https://linkedin.com/in/shayanghad0" target="_blank">LinkedIn</a>
+    <button onclick="window.open('https://shayanghad.ir')">My Site</button>
+
+  <a href="https://www.coffeebede.com/shayanghad0" target="_blank">
+    <img class="img-fluid" src="https://coffeebede.ir/DashboardTemplateV2/app-assets/images/banner/default-yellow.svg" />
+  </a>
+
+    <p>Gift to all Iranian users 🇮🇷 </p>
+  </footer>
+</body>
+</html>

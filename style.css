@@ -1,0 +1,26 @@
+@font-face {
+  font-family: 'bbfont';
+  src: url('font/bnazanin/iran-sans.woff') format('woff'),
+       url('font/bnazanin/iran-sans.ttf') format('truetype'),
+       url('font/bnazanin/iran-sans.eot') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'bbfont-small';
+  src: url('font/btitir/iran-yekan.woff') format('woff'),
+       url('font/btitir/iran-yekan.ttf') format('truetype'),
+       url('font/btitir/iran-yekan.eot') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body, html, div, span, h1, h2, h3, h4, h5, h6,
+a, li, ul, ol, input, textarea, button, strong, b, em, td, th, table {
+  font-family: 'bbfont', sans-serif !important;
+}
+
+p, small {
+  font-family: 'bbfont-small', sans-serif !important;
+}
